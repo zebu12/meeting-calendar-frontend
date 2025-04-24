@@ -19,7 +19,7 @@ export default function CreateMeeting() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         await createMeeting(form);
-        navigate('/');
+        navigate("/");
     };
 
     return (
